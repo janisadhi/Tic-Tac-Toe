@@ -14,8 +14,8 @@ This is a simple implementation of the classic Tic-Tac-Toe game. It can be playe
 1. Clone this repository to your local machine.
 
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe.git
-   cd tic-tac-toe
+   git clone https://github.com/janisadhi/Tic-Tac-Toe.git
+   cd Tic-Tac-Toe
    ```
 
 2. Make sure you have Python installed on your machine.
@@ -23,7 +23,7 @@ This is a simple implementation of the classic Tic-Tac-Toe game. It can be playe
 3. Run the game using the following command:
 
    ```bash
-   python3 tic_tac_toe.py
+   python3 app.py
    ```
 
 4. Follow the on-screen prompts to play the game.
