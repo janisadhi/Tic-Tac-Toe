@@ -18,15 +18,47 @@ This is a simple implementation of the classic Tic-Tac-Toe game. It can be playe
    cd Tic-Tac-Toe
    ```
 
-2. Make sure you have Python installed on your machine.
+2. Create a virtual environment.
 
-3. Run the game using the following command:
+   On macOS/Linux:
 
    ```bash
-   python3 app.py
+   python3 -m venv venv
    ```
 
-4. Follow the on-screen prompts to play the game.
+   On Windows:
+
+   ```bash
+   python -m venv venv
+   ```
+
+3. Activate the virtual environment.
+
+   On macOS/Linux:
+
+   ```bash
+   source venv/bin/activate
+   ```
+
+   On Windows:
+
+   ```bash
+   venv\Scripts\activate
+   ```
+
+4. Install the required dependencies from the `requirements.txt` file.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+5. Run the game using the following command:
+
+   ```bash
+   python app.py
+   ```
+
+6. Follow the on-screen prompts to play the game.
 
 ## How to Play
 
@@ -51,5 +83,5 @@ Player 1 wins!
 ## Requirements
 
 - Python 3.x
+- Dependencies listed in `requirements.txt`
 
-#
